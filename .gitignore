@@ -1,0 +1,22 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 署名鍵・秘密情報（公開リポジトリのため絶対にコミットしない）
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+google-services.json
+*.env
+
+# OS
+.DS_Store
+Thumbs.db

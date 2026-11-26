@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "routeId": "00000000-0000-4000-8000-000000000001",
+  "name": "デモルート（架空）",
+  "version": 1,
+  "updatedAt": "2026-11-26T09:00:00+09:00",
+  "routingMode": "WAYPOINTS_ONLY",
+  "origin": {
+    "pointId": "00000000-0000-4000-8000-0000000000a0",
+    "name": "サンプル車庫",
+    "latitude": 35.6800,
+    "longitude": 139.7600,
+    "pointType": "DEPOT"
+  },
+  "stops": [
+    {
+      "pointId": "00000000-0000-4000-8000-0000000000a1",
+      "sequence": 1,
+      "name": "サンプル集積所1",
+      "latitude": 35.6812,
+      "longitude": 139.7621,
+      "pointType": "COLLECTION_SITE"
+    },
+    {
+      "pointId": "00000000-0000-4000-8000-0000000000a2",
+      "sequence": 2,
+      "name": "サンプル集積所2",
+      "latitude": 35.6825,
+      "longitude": 139.7640,
+      "pointType": "COLLECTION_SITE"
+    },
+    {
+      "pointId": "00000000-0000-4000-8000-0000000000a9",
+      "sequence": 3,
+      "name": "サンプル清掃工場",
+      "latitude": 35.6850,
+      "longitude": 139.7700,
+      "pointType": "INCINERATOR"
+    },
+    {
+      "pointId": "00000000-0000-4000-8000-0000000000a3",
+      "sequence": 4,
+      "name": "サンプル集積所3",
+      "latitude": 35.6838,
+      "longitude": 139.7662,
+      "pointType": "COLLECTION_SITE"
+    }
+  ],
+  "destination": {
+    "pointId": "00000000-0000-4000-8000-0000000000a9",
+    "name": "サンプル清掃工場",
+    "latitude": 35.6850,
+    "longitude": 139.7700,
+    "pointType": "INCINERATOR"
+  },
+  "routeGeometry": null
+}
